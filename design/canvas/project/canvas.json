@@ -1,0 +1,178 @@
+{
+  "v": 3,
+  "attachments": {},
+  "boards": {
+    "ConceptA_Desktop.dc.html": {
+      "expand": "fill",
+      "guides": [
+        {
+          "count": 12,
+          "gutter": 24,
+          "hidden": true,
+          "kind": "columns",
+          "margin": 100
+        }
+      ],
+      "h": 5400,
+      "title": "Concept A · Pathway — Desktop homepage (1 of 2)",
+      "w": 1440,
+      "x": 0,
+      "y": 2900
+    },
+    "ConceptA_Mobile.dc.html": {
+      "h": 5400,
+      "title": "Concept A · Mobile homepage",
+      "w": 390,
+      "x": 3040,
+      "y": 2900
+    },
+    "ConceptA_MobileNav.dc.html": {
+      "h": 844,
+      "title": "Concept A · Mobile navigation drawer",
+      "w": 390,
+      "x": 3510,
+      "y": 2900
+    },
+    "ConceptB_Desktop.dc.html": {
+      "expand": "fill",
+      "h": 5200,
+      "title": "Concept B · Ledger — Desktop homepage",
+      "w": 1440,
+      "x": 0,
+      "y": 8820,
+      "is_interactive": true
+    },
+    "ConceptB_Donate.dc.html": {
+      "h": 960,
+      "title": "Concept B · Support KGWF panel (static)",
+      "w": 1440,
+      "x": 1990,
+      "y": 8820
+    },
+    "ConceptB_Mobile.dc.html": {
+      "h": 3600,
+      "title": "Concept B · Mobile homepage",
+      "w": 390,
+      "x": 1520,
+      "y": 8820
+    },
+    "ConceptC_Desktop.dc.html": {
+      "expand": "fill",
+      "h": 4900,
+      "title": "Concept C · Field Notes — Desktop homepage",
+      "w": 1440,
+      "x": 0,
+      "y": 14440
+    },
+    "ConceptC_Mobile.dc.html": {
+      "h": 3500,
+      "title": "Concept C · Mobile homepage",
+      "w": 390,
+      "x": 1520,
+      "y": 14440
+    },
+    "Identity.dc.html": {
+      "h": 2480,
+      "title": "01 · Visual identity system",
+      "w": 1440,
+      "x": 1520,
+      "y": 0
+    },
+    "Main.dc.html": {
+      "h": 2480,
+      "title": "00 · Brief, architecture & source audit",
+      "w": 1440,
+      "x": 0,
+      "y": 0
+    },
+    "ConceptA_Desktop2.dc.html": {
+      "x": 1520,
+      "y": 2900,
+      "w": 1440,
+      "h": 5500,
+      "title": "Concept A · Desktop homepage (2 of 2, continued)",
+      "expand": "fill"
+    }
+  },
+  "createdOnFiles": {
+    "at": "2026-10-03T15:30:00Z",
+    "v": 1
+  },
+  "designSystems": [],
+  "launch": {
+    "view": "canvas"
+  },
+  "notes": {
+    "n_a": {
+      "fill": "blue",
+      "maxH": 900,
+      "text": "CONCEPT A — PATHWAY (recommended)\n\nIdea: KGWF doesn't 'help people' — it opens doorways. The hero photograph sits inside an arch, a quiet nod to Jaipur's jharokhas and gateways, and a thin pathway line (Support → Skills → Confidence → Opportunity → Independence → Community impact) runs under the hero and returns in the impact section.\n\nFeel: calm, editorial, institution-grade. Ivory ground, navy ink, sand only as hairlines and frames. Teal/sage appear only where the content is environmental or community-led.\n\nStrongest at: credibility + warmth balance; scales cleanly to inner pages; least dependent on high-res photography (the arch crops tight).\n\nRisk: the most restrained of the three — needs excellent photography to avoid feeling quiet.\n\nTweak: use the Tweaks button on the desktop board to swap the hero photograph.",
+      "w": 420,
+      "x": 3980,
+      "y": 2900
+    },
+    "n_b": {
+      "fill": "teal",
+      "maxH": 900,
+      "text": "CONCEPT B — LEDGER\n\nIdea: an annual-report / foundation aesthetic. Deep navy hero with a restrained serif headline (Source Serif 4), sand hairlines, a visible column system, and impact presented as a ledger with sources beside every number.\n\nFeel: the most institutional and CSR-ready; reads well to corporate partners, auditors and government.\n\nStrongest at: trust, transparency, the CSR conversion path and the Corporate / Learning vertical.\n\nRisk: dark hero can feel formal; must keep community photography prominent so it doesn't drift toward a consultancy look.\n\nThe Support panel (right) shows the static donation experience: official UPI image unaltered, no gateway, no fake success state.",
+      "w": 420,
+      "x": 3510,
+      "y": 8820
+    },
+    "n_c": {
+      "fill": "orange",
+      "maxH": 900,
+      "text": "CONCEPT C — FIELD NOTES\n\nIdea: the website as a field journal. Photography leads; captions read like field notes (programme · place · [date]). The pathway becomes a numbered chapter rail that structures the whole homepage.\n\nFeel: the warmest and most human. Sage and terracotta carry more of the page; navy anchors type and the footer.\n\nStrongest at: storytelling, volunteer recruitment, social sharing.\n\nRisk: highly dependent on large, high-resolution original photographs. The supplied community photos are 330–690px wide — at this scale they will look soft until originals are provided.",
+      "w": 420,
+      "x": 2000,
+      "y": 14440
+    },
+    "t_a": {
+      "kind": "title1",
+      "maxW": 4400,
+      "text": "Concept A — Pathway  ·  editorial ivory, arch frame, the pathway line",
+      "w": 240,
+      "x": 0,
+      "y": 2600
+    },
+    "t_b": {
+      "kind": "title1",
+      "maxW": 3400,
+      "text": "Concept B — Ledger  ·  institutional navy, serif display, annual-report rigour",
+      "w": 240,
+      "x": 0,
+      "y": 8520
+    },
+    "t_c": {
+      "kind": "title1",
+      "maxW": 2000,
+      "text": "Concept C — Field Notes  ·  documentary photography, warm sage & terracotta",
+      "w": 240,
+      "x": 0,
+      "y": 14140
+    },
+    "t_found": {
+      "kind": "title1",
+      "maxW": 2960,
+      "text": "Foundations — source, structure, identity",
+      "w": 240,
+      "x": 0,
+      "y": -300
+    }
+  },
+  "order": [
+    "Main.dc.html",
+    "Identity.dc.html",
+    "ConceptA_Desktop.dc.html",
+    "ConceptA_Desktop2.dc.html",
+    "ConceptA_Mobile.dc.html",
+    "ConceptA_MobileNav.dc.html",
+    "ConceptB_Desktop.dc.html",
+    "ConceptB_Mobile.dc.html",
+    "ConceptB_Donate.dc.html",
+    "ConceptC_Desktop.dc.html",
+    "ConceptC_Mobile.dc.html"
+  ],
+  "pages": [],
+  "title": "KGWF Website Design Review"
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="t"><title id="t">Illustration: an open laptop, notebook and two cups across a table, representing a mentoring conversation</title>
+<rect width="800" height="1000" fill="#F3F0E8"/>
+<path d="M130 1000V430a270 270 0 0 1 540 0v570z" fill="#E7ECF2"/>
+<path d="M200 240h220a30 30 0 0 1 30 30v90a30 30 0 0 1-30 30H300l-50 44v-44h-50a30 30 0 0 1-30-30v-90a30 30 0 0 1 30-30z" fill="#DCE7E1"/>
+<g fill="#2F5551"><rect x="210" y="290" width="200" height="12" rx="6"/><rect x="210" y="320" width="140" height="12" rx="6"/></g>
+<path d="M600 360H420a30 30 0 0 0-30 30v80a30 30 0 0 0 30 30h120l50 40v-40h10a30 30 0 0 0 30-30v-80a30 30 0 0 0-30-30z" fill="#E8D8B9"/>
+<g fill="#8A6A2F"><rect x="420" y="402" width="180" height="12" rx="6"/><rect x="420" y="432" width="110" height="12" rx="6"/></g>
+<rect x="0" y="760" width="800" height="240" fill="#132B49"/>
+<path d="M0 760h800" stroke="#0C2038" stroke-width="8"/>
+<path d="M290 560h220a14 14 0 0 1 14 14v176H276V574a14 14 0 0 1 14-14z" fill="#0C2038"/>
+<rect x="294" y="578" width="212" height="156" rx="6" fill="#4A7975"/>
+<g fill="#DCE7E1"><rect x="314" y="600" width="120" height="10" rx="5"/><rect x="314" y="624" width="170" height="8" rx="4" opacity=".6"/><rect x="314" y="644" width="150" height="8" rx="4" opacity=".6"/></g>
+<rect x="314" y="676" width="80" height="34" rx="6" fill="#E8D8B9"/>
+<path d="M232 750h336l-24 22H256z" fill="#E8D8B9"/>
+<g transform="rotate(-8 160 790)"><rect x="80" y="720" width="160" height="110" rx="6" fill="#F8F6F0"/><path d="M160 720v110" stroke="#CDB88E" stroke-width="3"/><g stroke="#8A6A2F" stroke-width="3" opacity=".6"><path d="M96 746h50M96 766h50M96 786h40M176 746h50M176 766h44"/></g></g>
+<rect x="216" y="694" width="10" height="110" rx="5" transform="rotate(32 221 749)" fill="#B9785C"/>
+<path d="M600 700h70v60a35 35 0 0 1-70 0z" fill="#B9785C"/><path d="M670 712c26 0 26 36 0 36" fill="none" stroke="#B9785C" stroke-width="8"/>
+<path d="M90 710h60v54a30 30 0 0 1-60 0z" fill="#4A7975"/>
+<g stroke="#CDB88E" stroke-width="4" fill="none" stroke-linecap="round" opacity=".8"><path d="M620 680c-6-14 6-20 0-34M645 680c-6-14 6-20 0-34"/></g>
+</svg>

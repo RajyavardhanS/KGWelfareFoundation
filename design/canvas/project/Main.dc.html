@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>KGWF brief, architecture and source audit</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Source+Sans+3:wght@400;500;600&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.fh{font-family:'Manrope',system-ui,sans-serif}
+.fs{font-family:'Source Serif 4',Georgia,serif}
+.lbl{font-family:'Manrope',system-ui,sans-serif;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.flag{display:inline-block;font-family:'Manrope',system-ui,sans-serif;font-size:10.5px;font-weight:700;letter-spacing:.06em;padding:3px 7px;border-radius:4px;background:#F4E6DE;color:#8A4A30;white-space:nowrap}
+a{color:#132B49}a:hover{color:#0C2038}
+</style>
+</helmet>
+<div style="width:1440px;height:2480px;box-sizing:border-box;background:#F8F6F0;color:#263238;font-family:'Source Sans 3',system-ui,sans-serif;padding:88px 100px;display:flex;flex-direction:column;gap:72px">
+
+  <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:48px;border-bottom:1px solid rgba(19,43,73,.16);padding-bottom:40px">
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <div class="lbl" style="color:#8A6A2F">Kalindi Global Welfare Foundation · Website · Phase 1 — Design review</div>
+      <h1 class="fh" style="margin:0;font-size:64px;line-height:1.02;letter-spacing:-.03em;font-weight:800;color:#132B49">Brief, architecture<br>&amp; source audit</h1>
+    </div>
+    <p style="margin:0;max-width:420px;font-size:17px;line-height:1.55;color:#4F5B66">Design only — no implementation code until one concept is approved. Everything on these boards comes from the four supplied source files. Gaps are marked <span class="flag" style="background:#E7ECF2;color:#132B49">[CONTENT TO BE ADDED]</span> and conflicts <span class="flag">[VERIFY WITH KGWF]</span>.</p>
+  </div>
+
+  <div style="display:flex;flex-direction:column;gap:22px">
+    <div class="lbl" style="color:#4A7975">The one idea the site must carry</div>
+    <div style="display:flex;align-items:baseline;gap:40px;flex-wrap:wrap">
+      <p class="fs" style="margin:0;font-size:34px;line-height:1.25;color:#132B49;max-width:560px">KGWF doesn’t simply help people. <span style="font-style:italic">It creates pathways.</span></p>
+      <div style="flex:1;min-width:560px;display:flex;align-items:center;gap:0">
+        <div style="display:flex;flex-direction:column;align-items:center;gap:10px"><span style="width:12px;height:12px;border-radius:50%;background:#E8D8B9;border:1px solid #8A6A2F"></span><span class="lbl" style="font-size:10px;color:#132B49">Support</span></div>
+        <div style="flex:1;height:1px;background:#132B49;opacity:.3;margin-bottom:22px"></div>
+        <div style="display:flex;flex-direction:column;align-items:center;gap:10px"><span style="width:12px;height:12px;border-radius:50%;background:#E8D8B9;border:1px solid #8A6A2F"></span><span class="lbl" style="font-size:10px;color:#132B49">Skills</span></div>
+        <div style="flex:1;height:1px;background:#132B49;opacity:.3;margin-bottom:22px"></div>
+        <div style="display:flex;flex-direction:column;align-items:center;gap:10px"><span style="width:12px;height:12px;border-radius:50%;background:#E8D8B9;border:1px solid #8A6A2F"></span><span class="lbl" style="font-size:10px;color:#132B49">Confidence</span></div>
+        <div style="flex:1;height:1px;background:#132B49;opacity:.3;margin-bottom:22px"></div>
+        <div style="display:flex;flex-direction:column;align-items:center;gap:10px"><span style="width:12px;height:12px;border-radius:50%;background:#E8D8B9;border:1px solid #8A6A2F"></span><span class="lbl" style="font-size:10px;color:#132B49">Opportunity</span></div>
+        <div style="flex:1;height:1px;background:#132B49;opacity:.3;margin-bottom:22px"></div>
+        <div style="display:flex;flex-direction:column;align-items:center;gap:10px"><span style="width:12px;height:12px;border-radius:50%;background:#E8D8B9;border:1px solid #8A6A2F"></span><span class="lbl" style="font-size:10px;color:#132B49">Independence</span></div>
+        <div style="flex:1;height:1px;background:#132B49;opacity:.3;margin-bottom:22px"></div>
+        <div style="display:flex;flex-direction:column;align-items:center;gap:10px"><span style="width:14px;height:14px;border-radius:50%;background:#132B49"></span><span class="lbl" style="font-size:10px;color:#132B49">Community impact</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:48px">
+    <div style="display:flex;flex-direction:column;gap:18px">
+      <div class="lbl" style="color:#4A7975">Site architecture</div>
+      <div style="display:flex;flex-direction:column;border-top:1px solid rgba(19,43,73,.16)">
+        <div style="padding:12px 0;border-bottom:1px solid rgba(19,43,73,.1)"><div class="fh" style="font-weight:700;color:#132B49;font-size:15px">Home</div></div>
+        <div style="padding:12px 0;border-bottom:1px solid rgba(19,43,73,.1)"><div class="fh" style="font-weight:700;color:#132B49;font-size:15px">About</div><div style="font-size:14px;line-height:1.5;color:#4F5B66;margin-top:4px">Who we are · Vision &amp; mission · Why we do this · Founder story · Leadership &amp; governance · Transparency &amp; credentials</div></div>
+        <div style="padding:12px 0;border-bottom:1px solid rgba(19,43,73,.1)"><div class="fh" style="font-weight:700;color:#132B49;font-size:15px">Programmes</div><div style="font-size:14px;line-height:1.5;color:#4F5B66;margin-top:4px">Education &amp; Future-Building · Skill Development &amp; Livelihoods (Women’s Empowerment / Youth &amp; Professional Upskilling) · Sustainability &amp; Environment · Community Wellness &amp; Outreach · Volunteerism &amp; Leadership</div></div>
+        <div style="padding:12px 0;border-bottom:1px solid rgba(19,43,73,.1)"><div class="fh" style="font-weight:700;color:#132B49;font-size:15px">Impact</div><div style="font-size:14px;line-height:1.5;color:#4F5B66;margin-top:4px">Impact at a glance · How we create impact · Annual reports <span class="flag" style="background:#E7ECF2;color:#132B49">[CONTENT TO BE ADDED]</span></div></div>
+        <div style="padding:12px 0;border-bottom:1px solid rgba(19,43,73,.1)"><div class="fh" style="font-weight:700;color:#132B49;font-size:15px">Stories</div><div style="font-size:14px;line-height:1.5;color:#4F5B66;margin-top:4px">Stories from the field · Gallery</div></div>
+        <div style="padding:12px 0;border-bottom:1px solid rgba(19,43,73,.1)"><div class="fh" style="font-weight:700;color:#132B49;font-size:15px">Get Involved</div><div style="font-size:14px;line-height:1.5;color:#4F5B66;margin-top:4px">Donate · Volunteer · Mentor · Sponsor equipment · In-kind support</div></div>
+        <div style="padding:12px 0;border-bottom:1px solid rgba(19,43,73,.1)"><div class="fh" style="font-weight:700;color:#132B49;font-size:15px">CSR &amp; Partnerships</div><div style="font-size:14px;line-height:1.5;color:#4F5B66;margin-top:4px">Why partner · Formats (CSR funding, volunteering, in-kind, mentorship) · What support we need · How to partner · Enquiry</div></div>
+        <div style="padding:12px 0;border-bottom:1px solid rgba(19,43,73,.1)"><div class="fh" style="font-weight:700;color:#132B49;font-size:15px">Corporate / Learning</div><div style="font-size:14px;line-height:1.5;color:#4F5B66;margin-top:4px">Learning &amp; Leadership Solutions · Capability clusters · Programme catalogue · Technology tool catalogue · KGWF 6D Framework™ · Engagement models · Success stories · Enquiry</div></div>
+        <div style="padding:12px 0;border-bottom:1px solid rgba(19,43,73,.1)"><div class="fh" style="font-weight:700;color:#132B49;font-size:15px">Contact · Support KGWF panel</div><div style="font-size:14px;line-height:1.5;color:#4F5B66;margin-top:4px">Static donation panel (official UPI image, receipt note) · Privacy</div></div>
+      </div>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:18px">
+      <div class="lbl" style="color:#4A7975">Homepage narrative · Why → What → Proof → People → Action</div>
+      <div style="display:flex;flex-direction:column;gap:14px">
+        <div style="display:flex;gap:16px"><div class="lbl" style="width:68px;flex-shrink:0;color:#8A6A2F;padding-top:3px">Why</div><div style="font-size:15px;line-height:1.55;color:#263238">01 Navbar · 02 Hero — “Helping, because we can.” · 03 Trust strip</div></div>
+        <div style="display:flex;gap:16px"><div class="lbl" style="width:68px;flex-shrink:0;color:#8A6A2F;padding-top:3px">What</div><div style="font-size:15px;line-height:1.55;color:#263238">04 What we do (five areas) · 07 Featured programmes</div></div>
+        <div style="display:flex;gap:16px"><div class="lbl" style="width:68px;flex-shrink:0;color:#8A6A2F;padding-top:3px">Proof</div><div style="font-size:15px;line-height:1.55;color:#263238">05 Impact at a glance · 08 Stories from the field · 09 How we create impact · 12 Transparency &amp; credentials · 13 Gallery</div></div>
+        <div style="display:flex;gap:16px"><div class="lbl" style="width:68px;flex-shrink:0;color:#8A6A2F;padding-top:3px">People</div><div style="font-size:15px;line-height:1.55;color:#263238">06 Why we do this (the letter) · 11 Founder story &amp; leadership</div></div>
+        <div style="display:flex;gap:16px"><div class="lbl" style="width:68px;flex-shrink:0;color:#8A6A2F;padding-top:3px">Action</div><div style="font-size:15px;line-height:1.55;color:#263238">10 CSR &amp; partnerships · 14 Final call to action · 15 Footer</div></div>
+      </div>
+      <div style="margin-top:12px;padding:20px 22px;background:#FFFFFF;border:1px solid rgba(19,43,73,.1);border-radius:10px;display:flex;flex-direction:column;gap:10px">
+        <div class="lbl" style="color:#132B49">Separation rule for numbers</div>
+        <div style="font-size:14.5px;line-height:1.55;color:#4F5B66">Community programme figures and Learning &amp; Leadership (corporate) figures never share one grid without a label naming their vertical. Corporate percentages (45%, 40%, 80%, 85%, 30%, 35%) appear only on the Corporate / Learning page, each with its stated source.</div>
+      </div>
+      <div style="padding:20px 22px;background:#FFFFFF;border:1px solid rgba(19,43,73,.1);border-radius:10px;display:flex;flex-direction:column;gap:10px">
+        <div class="lbl" style="color:#132B49">Two frameworks, kept apart</div>
+        <div style="font-size:14.5px;line-height:1.55;color:#4F5B66">Identify → Engage → Equip → Enable → Follow through is a <strong>design device</strong> for the community site, labelled as illustrative. The <strong>KGWF 6D Framework™</strong> (Discover, Design, Deliver, Practice, Coach, Measure) is the official corporate-learning method and appears only in that vertical.</div>
+      </div>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:18px">
+      <div class="lbl" style="color:#4A7975">Asset inventory</div>
+      <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px">
+        <img src="/_blob/1d8197a5dbd076682bf17f25862a09f1" alt="Education kits being handed to schoolgirls" style="width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px">
+        <img src="/_blob/b91e739092231ed7831781d0d9cc0814" alt="Children receiving education kits" style="width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px">
+        <img src="/_blob/3f5077ce71d14a46c5858e760a1907dd" alt="Community food distribution" style="width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px">
+        <img src="/_blob/f1d1182f0c1df279e89085ee9494ffd0" alt="Women at a community gathering" style="width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px">
+        <img src="/_blob/fdc2dcf39687bfe1d296e481d19653d1" alt="Classroom session" style="width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px">
+        <img src="/_blob/8b89323d70ef5c4ca70b2e769da3cab5" alt="Founder in Indian Air Force flight suit" style="width:100%;aspect-ratio:1;object-fit:cover;object-position:50% 20%;border-radius:6px">
+      </div>
+      <div style="display:flex;flex-direction:column;gap:12px;font-size:14.5px;line-height:1.55;color:#4F5B66">
+        <div><strong style="color:#132B49">15 community photographs</strong> (CSR document) — the only programme imagery. All are <strong>330–690 px wide</strong>: usable for these concepts, too small for a sharp hero. <span class="flag">Originals ≥ 2400 px needed</span></div>
+        <div><strong style="color:#132B49">37 images</strong> (Capability Statement) — mostly corporate workshops, conferences and awards. Reserved for Corporate / Learning and the founder story; kept off the NGO hero.</div>
+        <div><strong style="color:#132B49">No photographs</strong> of silai / tailoring training, plantation drives or clean-ups were supplied. <span class="flag" style="background:#E7ECF2;color:#132B49">[CONTENT TO BE ADDED]</span></div>
+        <div><strong style="color:#132B49">No portraits</strong> of board members or advisors → understated monogram placeholders.</div>
+        <div><strong style="color:#132B49">Logo:</strong> no standalone or vector logo was supplied. The interim mark is cropped from the circular “KGWF Career Connect Veterans” emblem. <span class="flag" style="background:#E7ECF2;color:#132B49">[Vector logo TO BE ADDED]</span></div>
+        <div><strong style="color:#132B49">Payment:</strong> the official ICICI Eazypay UPI image is used unaltered. The QR is never redrawn.</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:flex;flex-direction:column;gap:18px">
+    <div style="display:flex;justify-content:space-between;align-items:baseline">
+      <div class="lbl" style="color:#9A5B40">Source verification log — not resolved in the design, flagged for KGWF</div>
+      <div style="font-size:13px;color:#4F5B66">Shown on the boards as <span class="flag">[VERIFY WITH KGWF]</span></div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:48px;border-top:1px solid rgba(19,43,73,.16)">
+      <div style="display:flex;gap:18px;padding:16px 0;border-bottom:1px solid rgba(19,43,73,.1)"><div class="fh" style="font-weight:800;color:#9A5B40;width:28px;flex-shrink:0">01</div><div style="font-size:14.5px;line-height:1.55"><strong style="color:#132B49">Address.</strong> CSR document and banner: <em>141, Krishna Vihar, Gopalpura Bypass, Jaipur 302015</em>. UPI card and donation receipt: <em>120, Vishveshwariya Nagar, Gopalpura Bypass, Jaipur 302018</em>. Which is the registered address, and which (if any) is correspondence?</div></div>
+      <div style="display:flex;gap:18px;padding:16px 0;border-bottom:1px solid rgba(19,43,73,.1)"><div class="fh" style="font-weight:800;color:#9A5B40;width:28px;flex-shrink:0">02</div><div style="font-size:14.5px;line-height:1.55"><strong style="color:#132B49">Bank details.</strong> CSR document says “Banking details available upon request”; the banner and UPI card print the account number and IFSC. Confirm whether the account number should be public. The concepts show the UPI image and keep the account number masked until confirmed.</div></div>
+      <div style="display:flex;gap:18px;padding:16px 0;border-bottom:1px solid rgba(19,43,73,.1)"><div class="fh" style="font-weight:800;color:#9A5B40;width:28px;flex-shrink:0">03</div><div style="font-size:14.5px;line-height:1.55"><strong style="color:#132B49">80G wording.</strong> CSR document: “80G Approval No”. Receipt: “Provisional Registration No. under section 80G” (same number). Final or provisional?</div></div>
+      <div style="display:flex;gap:18px;padding:16px 0;border-bottom:1px solid rgba(19,43,73,.1)"><div class="fh" style="font-weight:800;color:#9A5B40;width:28px;flex-shrink:0">04</div><div style="font-size:14.5px;line-height:1.55"><strong style="color:#132B49">Years of experience.</strong> Capability Statement says “20+ Years of Experience” (Our Reach) and “15+ years” (bio, Impact at Scale).</div></div>
+      <div style="display:flex;gap:18px;padding:16px 0;border-bottom:1px solid rgba(19,43,73,.1)"><div class="fh" style="font-weight:800;color:#9A5B40;width:28px;flex-shrink:0">05</div><div style="font-size:14.5px;line-height:1.55"><strong style="color:#132B49">Attribution of long-run figures.</strong> 20,000+ students (“over 15 years”) and 10,000+ self-defence students sit in the founder / L&amp;L narrative, while the CIN indicates 2024 incorporation. Present as KGWF impact, or as the founder’s prior work?</div></div>
+      <div style="display:flex;gap:18px;padding:16px 0;border-bottom:1px solid rgba(19,43,73,.1)"><div class="fh" style="font-weight:800;color:#9A5B40;width:28px;flex-shrink:0">06</div><div style="font-size:14.5px;line-height:1.55"><strong style="color:#132B49">Government of Rajasthan figures.</strong> Case Study 3 places “3,000+ youth” under the Government of Rajasthan programme; Impact at Scale lists 3,000+ (KGWF programmes) and 1,200+ (government partnership) separately.</div></div>
+      <div style="display:flex;gap:18px;padding:16px 0;border-bottom:1px solid rgba(19,43,73,.1)"><div class="fh" style="font-weight:800;color:#9A5B40;width:28px;flex-shrink:0">07</div><div style="font-size:14.5px;line-height:1.55"><strong style="color:#132B49">Founder titles.</strong> “Global IT &amp; Automation leader at Amazon” (CSR) vs “Global IT Manager at Amazon” (Capability). “Former Professor of Practice” (CSR) vs current “Professor of Practice” (Capability).</div></div>
+      <div style="display:flex;gap:18px;padding:16px 0;border-bottom:1px solid rgba(19,43,73,.1)"><div class="fh" style="font-weight:800;color:#9A5B40;width:28px;flex-shrink:0">08</div><div style="font-size:14.5px;line-height:1.55"><strong style="color:#132B49">Advisory panel.</strong> CSR text mentions an “RPS officer, RAS officer” on the panel; none of the named advisors is listed with those roles.</div></div>
+      <div style="display:flex;gap:18px;padding:16px 0;border-bottom:1px solid rgba(19,43,73,.1)"><div class="fh" style="font-weight:800;color:#9A5B40;width:28px;flex-shrink:0">09</div><div style="font-size:14.5px;line-height:1.55"><strong style="color:#132B49">Credentials needing evidence before publishing.</strong> “₹10M+ Grants Mobilized”, “NITI Aayog Empanelled Speaker &amp; Mentor”, “Govt. of Rajasthan Partner”, “AIM Contributor” — listed in the Capability Statement only.</div></div>
+      <div style="display:flex;gap:18px;padding:16px 0;border-bottom:1px solid rgba(19,43,73,.1)"><div class="fh" style="font-weight:800;color:#9A5B40;width:28px;flex-shrink:0">10</div><div style="font-size:14.5px;line-height:1.55"><strong style="color:#132B49">Names &amp; programmes.</strong> Spelling of “Proff (Dr) Abhineet Saxena” and “Group Captain, Vikas Sareen”. “Career Connect Veterans” appears only on the emblem — no programme description supplied.</div></div>
+    </div>
+  </div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":2480}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

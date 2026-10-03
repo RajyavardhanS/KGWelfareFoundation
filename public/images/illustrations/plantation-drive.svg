@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="t"><title id="t">Illustration: a sapling being planted and watered, representing a plantation drive</title>
+<rect width="800" height="1000" fill="#EEF3EF"/>
+<path d="M130 1000V430a270 270 0 0 1 540 0v570z" fill="#DCE7E1"/>
+<circle cx="230" cy="260" r="80" fill="#E8D8B9"/>
+<path d="M0 820c140-40 300-56 400-56s260 16 400 56v180H0z" fill="#9A5B40"/>
+<path d="M0 860c160-30 300-40 400-40s240 10 400 40v140H0z" fill="#B9785C"/>
+<ellipse cx="400" cy="800" rx="130" ry="26" fill="#7E4932"/>
+<path d="M400 800V520" stroke="#2F5551" stroke-width="12" stroke-linecap="round"/>
+<path d="M400 640c-30-40-90-50-130-30 30 50 90 60 130 30z" fill="#4A7975"/>
+<path d="M400 600c30-50 100-70 150-46-30 60-100 76-150 46z" fill="#4A7975"/>
+<path d="M400 540c-20-46-70-66-110-54 20 52 70 70 110 54z" fill="#2F5551"/>
+<path d="M400 524c10-40 50-70 92-66-10 46-50 72-92 66z" fill="#2F5551"/>
+<path d="M400 700c26-30 76-40 112-24-24 40-76 48-112 24z" fill="#4A7975" opacity=".9"/>
+<g transform="rotate(-22 600 520)"><rect x="540" y="470" width="150" height="100" rx="18" fill="#132B49"/><path d="M540 500h-70l-26-26" fill="none" stroke="#132B49" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/><path d="M610 470c0-40 60-40 60 0" fill="none" stroke="#132B49" stroke-width="14"/><rect x="560" y="500" width="110" height="8" rx="4" fill="#E8D8B9"/></g>
+<g fill="#4A7975"><path d="M458 470c-6 12-6 20 0 22 6-2 6-10 0-22z"/><path d="M440 510c-6 12-6 20 0 22 6-2 6-10 0-22z"/><path d="M470 540c-6 12-6 20 0 22 6-2 6-10 0-22z"/></g>
+<g transform="rotate(18 180 780)"><rect x="170" y="640" width="16" height="120" rx="6" fill="#0C2038"/><path d="M152 760h52l-8 70c-2 16-34 16-36 0z" fill="#8A6A2F"/></g>
+<g fill="#F3EDE0" opacity=".5"><circle cx="300" cy="900" r="6"/><circle cx="520" cy="930" r="5"/><circle cx="640" cy="880" r="7"/><circle cx="120" cy="920" r="5"/></g>
+</svg>

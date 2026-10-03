@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="t"><title id="t">Illustration: a broom and collection bag before Jaipur-style arched facades, representing a neighbourhood clean-up drive</title>
+<rect width="800" height="1000" fill="#F8F6F0"/>
+<rect x="0" y="300" width="800" height="520" fill="#EFE6D3"/>
+<g fill="#E8D8B9"><rect x="40" y="220" width="220" height="600"/><rect x="290" y="160" width="230" height="660"/><rect x="550" y="250" width="210" height="570"/></g>
+<g fill="#132B49" opacity=".18"><rect x="40" y="200" width="220" height="20"/><rect x="290" y="140" width="230" height="20"/><rect x="550" y="230" width="210" height="20"/></g>
+<g fill="#B9785C" opacity=".85"><path d="M60 420v-50a40 40 0 0 1 80 0v50zM160 420v-50a40 40 0 0 1 80 0v50z"/><path d="M310 360v-60a45 45 0 0 1 90 0v60zM410 360v-60a45 45 0 0 1 90 0v60z"/><path d="M570 450v-50a40 40 0 0 1 80 0v50zM660 450v-50a40 40 0 0 1 80 0v50z"/></g>
+<g fill="#9A5B40" opacity=".7"><path d="M100 640v-70a50 50 0 0 1 100 0v70zM350 600v-80a55 55 0 0 1 110 0v80zM605 680v-70a50 50 0 0 1 100 0v70z"/></g>
+<rect x="0" y="820" width="800" height="180" fill="#DCE7E1"/>
+<path d="M0 820h800" stroke="#4A7975" stroke-width="4"/>
+<g transform="rotate(-14 330 640)"><rect x="318" y="380" width="22" height="430" rx="10" fill="#132B49"/><path d="M286 800h86l30 150H256z" fill="#8A6A2F"/><path d="M286 800h86" stroke="#0C2038" stroke-width="10"/><g stroke="#6B5222" stroke-width="3"><path d="M290 820l-14 120M310 820l-6 126M330 820v128M350 820l6 126M370 820l14 120"/></g></g>
+<path d="M480 980c-30-130-10-220 40-250h120c50 30 70 120 40 250z" fill="#4A7975"/>
+<path d="M520 730c10-30 30-46 60-46s50 16 60 46" fill="none" stroke="#2F5551" stroke-width="12" stroke-linecap="round"/>
+<g fill="none" stroke="#DCE7E1" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><path d="M580 830l-26 44M580 830l26 44M548 900h64"/></g>
+<g fill="#0C2038" opacity=".2"><ellipse cx="580" cy="985" rx="110" ry="10"/><ellipse cx="320" cy="985" rx="80" ry="8"/></g>
+</svg>

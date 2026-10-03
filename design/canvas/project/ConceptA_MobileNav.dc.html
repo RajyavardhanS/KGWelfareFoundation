@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Concept A mobile navigation drawer</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Source+Sans+3:wght@400;500;600&amp;family=Tiro+Devanagari+Hindi&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.fh{font-family:'Manrope',system-ui,sans-serif}
+.lbl{font-family:'Manrope',system-ui,sans-serif;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.nl{display:flex;align-items:baseline;justify-content:space-between;padding:13px 0;border-bottom:1px solid rgba(232,216,185,.16);text-decoration:none;color:#F8F6F0}
+.nl:hover{color:#E8D8B9}
+a{color:#F8F6F0}
+</style>
+</helmet>
+<div style="width:390px;height:844px;box-sizing:border-box;background:#0C2038;color:#F8F6F0;font-family:'Source Sans 3',system-ui,sans-serif;display:flex;flex-direction:column;padding:0 24px 28px">
+  <div style="display:flex;align-items:center;justify-content:space-between;height:64px">
+    <div style="display:flex;align-items:center;gap:10px"><img src="/_blob/0c0dfdee126ce43acb01ca5da5f3f13e" alt="KGWF mark" style="height:30px;width:auto"><span class="fh" style="font-weight:800;font-size:17px;letter-spacing:.08em">KGWF</span></div>
+    <button type="button" aria-label="Close menu" style="width:44px;height:44px;border-radius:6px;border:1px solid rgba(232,216,185,.35);background:transparent;color:#F8F6F0;display:flex;align-items:center;justify-content:center;padding:0"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"></path></svg></button>
+  </div>
+  <nav aria-label="Mobile" style="display:flex;flex-direction:column;margin-top:20px;border-top:1px solid rgba(232,216,185,.16)">
+    <a href="#" class="nl"><span class="fh" style="font-size:26px;font-weight:700;letter-spacing:-.02em">About</span><span class="fh" style="font-size:11px;color:#9AA6B4">01</span></a>
+    <a href="#" class="nl"><span class="fh" style="font-size:26px;font-weight:700;letter-spacing:-.02em">Programmes</span><span class="fh" style="font-size:11px;color:#9AA6B4">02</span></a>
+    <a href="#" class="nl"><span class="fh" style="font-size:26px;font-weight:700;letter-spacing:-.02em">Impact</span><span class="fh" style="font-size:11px;color:#9AA6B4">03</span></a>
+    <a href="#" class="nl"><span class="fh" style="font-size:26px;font-weight:700;letter-spacing:-.02em">Stories</span><span class="fh" style="font-size:11px;color:#9AA6B4">04</span></a>
+    <a href="#" class="nl"><span class="fh" style="font-size:26px;font-weight:700;letter-spacing:-.02em">Get Involved</span><span class="fh" style="font-size:11px;color:#9AA6B4">05</span></a>
+    <a href="#" class="nl"><span class="fh" style="font-size:26px;font-weight:700;letter-spacing:-.02em">CSR &amp; Partnerships</span><span class="fh" style="font-size:11px;color:#9AA6B4">06</span></a>
+    <a href="#" class="nl"><span class="fh" style="font-size:26px;font-weight:700;letter-spacing:-.02em">Corporate / Learning</span><span class="fh" style="font-size:11px;color:#9AA6B4">07</span></a>
+  </nav>
+  <div style="flex:1"></div>
+  <div style="display:flex;flex-direction:column;gap:14px">
+    <a href="#" class="fh" style="display:flex;align-items:center;justify-content:center;height:54px;border-radius:6px;background:#E8D8B9;color:#0C2038;font-size:16px;font-weight:800;text-decoration:none">Support KGWF</a>
+    <div style="display:flex;justify-content:space-between;font-size:14px;color:#B9C2CE"><span>WhatsApp +91 99287 86459</span><span>Email</span></div>
+    <span style="font-family:'Tiro Devanagari Hindi',serif;font-size:15px;color:#E8D8B9">कर्मण्येवाधिकारस्ते</span>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

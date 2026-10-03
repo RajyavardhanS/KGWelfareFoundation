@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="t"><title id="t">Illustration: a sewing machine with fabric and thread, representing silai training</title>
+<rect width="800" height="1000" fill="#F3EDE0"/>
+<path d="M130 1000V430a270 270 0 0 1 540 0v570z" fill="#DCE7E1"/>
+<circle cx="580" cy="250" r="72" fill="#E8D8B9"/>
+<rect x="40" y="700" width="720" height="22" rx="4" fill="#0C2038"/>
+<rect x="170" y="636" width="430" height="64" rx="16" fill="#132B49"/>
+<rect x="470" y="420" width="116" height="230" rx="22" fill="#132B49"/>
+<rect x="200" y="398" width="386" height="92" rx="42" fill="#132B49"/>
+<rect x="196" y="430" width="88" height="140" rx="20" fill="#132B49"/>
+<rect x="300" y="428" width="210" height="8" rx="4" fill="#E8D8B9"/>
+<rect x="300" y="446" width="140" height="4" rx="2" fill="#E8D8B9" opacity=".6"/>
+<rect x="232" y="566" width="14" height="56" rx="3" fill="#E8D8B9"/>
+<path d="M239 622v24" stroke="#F8F6F0" stroke-width="3" stroke-linecap="round"/>
+<circle cx="606" cy="470" r="54" fill="none" stroke="#B9785C" stroke-width="16"/>
+<circle cx="606" cy="470" r="11" fill="#B9785C"/>
+<rect x="374" y="350" width="40" height="50" rx="6" fill="#B9785C"/>
+<rect x="366" y="344" width="56" height="10" rx="4" fill="#E8D8B9"/>
+<rect x="366" y="394" width="56" height="10" rx="4" fill="#E8D8B9"/>
+<path d="M394 344C340 300 262 330 240 430" fill="none" stroke="#9A5B40" stroke-width="2.5"/>
+<path d="M196 700c64-14 140 8 226-6l52 8c34 70 0 168 48 298H246c34-104-28-196-50-300z" fill="#B9785C"/>
+<path d="M300 720c20 80-6 180 14 280M380 716c26 90 4 190 34 284M450 712c18 70 10 130 30 200" fill="none" stroke="#9A5B40" stroke-width="3" opacity=".7"/>
+<g fill="#E8D8B9" opacity=".85"><circle cx="270" cy="780" r="5"/><circle cx="340" cy="820" r="5"/><circle cx="420" cy="790" r="5"/><circle cx="300" cy="880" r="5"/><circle cx="370" cy="920" r="5"/><circle cx="450" cy="880" r="5"/><circle cx="330" cy="960" r="5"/><circle cx="420" cy="970" r="5"/></g>
+<path d="M590 700c50 60 110 70 150 150" fill="none" stroke="#E8D8B9" stroke-width="20" stroke-linecap="round"/>
+<path d="M590 700c50 60 110 70 150 150" fill="none" stroke="#8A6A2F" stroke-width="20" stroke-dasharray="2 14"/>
+<g stroke="#0C2038" stroke-width="6" fill="none" stroke-linecap="round"><circle cx="650" cy="676" r="13"/><circle cx="686" cy="682" r="13"/><path d="M662 668l60-36M676 672l52-44"/></g>
+</svg>
